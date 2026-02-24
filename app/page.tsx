@@ -1,8 +1,11 @@
 import Image from "next/image"
 
 export const metadata = {
-    title: 'Home | Spinning Plates',
-    description: 'Vinyl and Record shop'
+    title: {
+        default: 'Spinning Plates',
+        template: '%s | Spinning Plates' 
+    },
+    description: 'Independent vinyl and record shop'
 }
 
 export default function Home() {
@@ -20,7 +23,7 @@ export default function Home() {
             </div>
             
             <section className="text-center px-6">
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+                <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
                     Welcome to Spinning Plates
                 </h1>
             </section>
