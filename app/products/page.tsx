@@ -4,7 +4,7 @@ import { records } from '../lib/records'
 export default function ProductsPage() {
     return (
         <main className="relative min-h-screen pt-32 px-12">
-            <div className="fixed inset-0 -z-20 bg-[url('/bricks.jpg')] bg-cover bg-center opacity-25" />
+            <div className="fixed inset-0 -z-20 bg-[url('/bricks.jpg')] bg-cover bg-center opacity-45" />
             <div className="fixed inset-0 -z-10 bg-black/30" />
 
             <div className="max-w-6xl mx-auto">
