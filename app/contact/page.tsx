@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function ContactPage() {
     const [submitted, setSubmitted] = useState(false)
 
-    const handleSubmit = (event: React.FormEvent) => {
+    const handleSubmit = (event: React.SyntheticEvent) => {
         event.preventDefault()
         setSubmitted(true)
     }
