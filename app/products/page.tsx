@@ -1,23 +1,5 @@
 import VinylCard from '../components/VinylCard'
-
-const records = [
-    {
-        id: 1,
-        artist: 'Surprise Chef',
-        title: 'Superb',
-        description: 'Their latest mind blowing album.',
-        price: 10,
-        image: '/superb.jpg',
-    },
-    {
-        id: 2,
-        artist: 'Boards of Canada',
-        title: 'Music has the Right to Children',
-        description: 'Seminal electronica.',
-        price: 20,
-        image: '/boc.jpg',
-    },
-]
+import { records } from '../lib/records'
 
 export default function ProductsPage() {
     return (
