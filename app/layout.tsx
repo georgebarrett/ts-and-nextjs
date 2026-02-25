@@ -32,6 +32,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                                 Vinyl
                                 <span className="absolute left-0 -bottom-1 h-px w-0 bg-white transition-all duration-300 group-hover:w-full" />
                             </Link>
+
+                            <Link href="/contact" className="relative group">
+                                Contact
+                                <span className="absolute left-0 -bottom-1 h-px w-0 bg-white transition-all duration-300 group-hover:w-full" />
+                            </Link>
                         </div>
                     </nav>
                 </header>
