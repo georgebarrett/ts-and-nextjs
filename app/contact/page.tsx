@@ -16,9 +16,7 @@ export default function ContactPage() {
             <div className="fixed inset-0 -z-10 bg-black/30" />
 
             <div className="max-w-2xl mx-auto">
-                <h1 className="text-3xl font-bold mb-8 text-center">
-                    Contact
-                </h1>
+                <h1 className="text-3xl font-bold mb-8 text-center">Contact</h1>
 
                 <p className="text-center font-bold text-white/70 mb-12">
                     Got a question about a record? Send a message.
